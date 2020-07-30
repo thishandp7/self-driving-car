@@ -1,5 +1,5 @@
 # Self-Driving Car DNN Model
- - A Deep Neural Network model based on Nvidia’s proposed DNN architecture for self-driving cars.
+ - A Deep Neural Network model based on Nvidia’s proposed Convolutional Neural Network architecture for self-driving cars.
  - The model was trained using the imaged collected from Udacity’s Self Driving car simulator.
  - The goal of this project is to predict the correct steering angle while driving.
  
@@ -32,5 +32,10 @@
     - Fliped the images horizontally and update the corresponding steering angle to match the flip
 
 ## Nvidia model
+- The CNN architecture proposed by Nvidia has about 27 million connection as 250 thouansd parameters.
+- Following image is taken from the [paper](https://developer.nvidia.com/blog/deep-learning-self-driving-cars/) publish by Nvidia.
+<p align="center">
+  <img src="https://developer.nvidia.com/blog/parallelforall/wp-content/uploads/2016/08/cnn-architecture-624x890.png" width="400">
+</p>
 
 ## WebSocket Server
