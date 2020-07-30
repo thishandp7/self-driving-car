@@ -2,6 +2,7 @@
  - A Deep Neural Network model based on Nvidia’s proposed Convolutional Neural Network architecture for self-driving cars.
  - The model was trained using the imaged collected from Udacity’s Self Driving car simulator.
  - The goal of this project is to predict the correct steering angle while driving.
+ - The model was built using Python, NumPy, Keras, OpenCV and Pandas.
  
 ## Data collection
  - Approximately 18,000 images were collected from the Udacity’s Self Driving car simulator by manually driving the car around the map.
@@ -39,3 +40,5 @@
 </p>
 
 ## WebSocket Server
+ - Created a WebSocket server to take the incoming video feed from the simulator and predict the steering angle using the generated model and send it back to the simulator in real-time.
+ - This websocket server was built using Socket.io and Flask
